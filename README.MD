@@ -24,3 +24,10 @@ Ejecutar el siguiente comando para instalar React:
 ```sh
 npm install react react-dom -E
 ```
+
+## Instalación de Babel
+Ejecutar el siguiente comando para instalar Babel, este funciona para poder entender los archivos de React.
+```sh
+npm install @babel/core babel-loader @babel/preset-react --save-dev
+```
+
