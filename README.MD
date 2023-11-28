@@ -31,3 +31,8 @@ Ejecutar el siguiente comando para instalar Babel, este funciona para poder ente
 npm install @babel/core babel-loader @babel/preset-react --save-dev
 ```
 
+## Instalación de style-loader y css-loader
+Ejecutar el siguiente comando para instalar style-loader y css-loader, este funciona para poder entender los archivos css y los pueda cargar en JS.
+```sh
+npm install style-loader css-loader --save-dev
+```
