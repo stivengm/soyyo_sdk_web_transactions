@@ -31,5 +31,10 @@ module.exports = {
     module: { rules },
     plugins: [
         new HtmlWebpackPlugin({template: 'src/index.html'})
-    ]
+    ],
+    devServer: {
+        open: true,
+        port: 3000,
+        overlay: true
+    }
 }
