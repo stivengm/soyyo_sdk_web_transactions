@@ -15,7 +15,12 @@ const rulesForJavaScript = {
     }
 }
 
-const rules = [ rulesForJavaScript ]
+const rulesForStyles = {
+    test: /\.css$/,
+    use: ['style-loader', 'css-loader']
+}
+
+const rules = [ rulesForJavaScript, rulesForStyles ]
 
 module.exports = {
     // entry: '',
