@@ -1,3 +1,10 @@
-import { sayHi } from './utils';
+import react from 'react';
 
-sayHi();
+import ReactDOM from 'react-dom';
+
+import App from './App';
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+);
