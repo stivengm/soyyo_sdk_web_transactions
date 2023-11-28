@@ -11,8 +11,16 @@ git init -y
 Creación de estructuras de carpetas, se recomienda dejarlo en `src/index.js`
 
 ## Instalación de WebPack
-Ejecución del siguiente comando:
+Ejecutar el siguiente comando para instalar WebPack:
 ```sh
 npm install webpack webpack-cli --save-dev
 ```
 
+Crear script para la creación del build.
+> "build": "webpack --mode=development"
+
+## Instalación de React
+Ejecutar el siguiente comando para instalar React:
+```sh
+npm install react react-dom -E
+```
